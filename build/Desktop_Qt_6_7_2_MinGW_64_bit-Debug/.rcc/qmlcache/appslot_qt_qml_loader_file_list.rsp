@@ -1,8 +1,0 @@
---resource
-D:/proiecte/qt/slot_qt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_slot_qt.qrc
---resource
-D:/proiecte/qt/slot_qt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appslot_qt_raw_qml_0.qrc
-/slot_qt/main.qml
-/slot_qt/Blue_blackborder.qml
-/slot_qt/InfoPage.qml
-/slot_qt/doublepage.qml

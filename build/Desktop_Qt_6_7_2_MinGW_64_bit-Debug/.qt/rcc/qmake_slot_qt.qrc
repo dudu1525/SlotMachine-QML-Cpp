@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/slot_qt">
-    <file alias="qmldir">D:/proiecte/qt/slot_qt/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/slot_qt/qmldir</file>
-  </qresource>
-</RCC>
-
