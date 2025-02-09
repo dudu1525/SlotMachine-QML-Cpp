@@ -1,0 +1,516 @@
+{
+    "classes": [
+        {
+            "className": "slot_machine",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "substractBet",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "canPlaceBet",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ireel1",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "ireel2",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "ireel3",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "ireel4",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "ireel5",
+                            "type": "QVariantList"
+                        }
+                    ],
+                    "name": "randomfind",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ireel1",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "ireel2",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "ireel3",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "ireel4",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "ireel5",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "b",
+                            "type": "int[5][23]"
+                        }
+                    ],
+                    "name": "create_reels",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "number",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "getImagePath",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "nr",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "delayimages",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "nr",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "getreels",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "a",
+                            "type": "QVariantList"
+                        }
+                    ],
+                    "name": "getwins",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "a",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "winscomb",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "scatter",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "sumwon",
+                            "type": "double"
+                        }
+                    ],
+                    "name": "calcwins",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "is0",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "name": "lastwincalc",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "calcsquares",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "resetsquares",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "generate50",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "findnrdoublings",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "getimagecard",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "getimagehistory",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "updatehistory",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "sum",
+                    "notify": "SUMChanged",
+                    "read": "readSUM",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setSUM"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 1,
+                    "name": "bet",
+                    "notify": "betChanged",
+                    "read": "readbet",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setBet"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 2,
+                    "name": "chance50",
+                    "notify": "chance50Changed",
+                    "read": "readchance50",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setchance50"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "ireel1",
+                    "notify": "ireel1Changed",
+                    "read": "getireel1",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "ireel2",
+                    "notify": "ireel2Changed",
+                    "read": "getireel2",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "ireel3",
+                    "notify": "ireel3Changed",
+                    "read": "getireel3",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "ireel4",
+                    "notify": "ireel4Changed",
+                    "read": "getireel4",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "ireel5",
+                    "notify": "ireel5Changed",
+                    "read": "getireel5",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "name": "a",
+                    "notify": "aChanged",
+                    "read": "geta",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 9,
+                    "name": "sumwon",
+                    "notify": "sumwonChanged",
+                    "read": "readsumwon",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setsumwon"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 10,
+                    "name": "winscomb",
+                    "notify": "winscombChanged",
+                    "read": "getwinscomb",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "name": "scatter",
+                    "notify": "scatterChanged",
+                    "read": "getscatter",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 12,
+                    "name": "lastwin",
+                    "notify": "lastwinChanged",
+                    "read": "readlastwin",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setlastwin"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 13,
+                    "name": "highl",
+                    "notify": "highlChanged",
+                    "read": "gethighl",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 14,
+                    "name": "history",
+                    "notify": "historyChanged",
+                    "read": "gethistory",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "slot_machine",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "SUMChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "betChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "ireel1Changed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "ireel2Changed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "ireel3Changed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "ireel4Changed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "ireel5Changed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "aChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "winChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "winscombChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "scatterChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "sumwonChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "lastwinChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "highlChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "chance50Changed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "historyChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "slot_machine.h",
+    "outputRevision": 68
+}

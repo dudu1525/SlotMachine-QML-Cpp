@@ -1,0 +1,6 @@
+module slot_qt
+typeinfo appslot_qt.qmltypes
+prefer :/slot_qt/
+Blue_blackborder 1.0 Blue_blackborder.qml
+InfoPage 1.0 InfoPage.qml
+

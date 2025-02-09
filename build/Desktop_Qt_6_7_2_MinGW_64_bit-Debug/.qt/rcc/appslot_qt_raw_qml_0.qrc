@@ -1,0 +1,32 @@
+<RCC>
+  <qresource prefix="/slot_qt/">
+    <file alias="main.qml">D:/proiecte/qt/slot_qt/main.qml</file>
+    <file alias="Blue_blackborder.qml">D:/proiecte/qt/slot_qt/Blue_blackborder.qml</file>
+    <file alias="InfoPage.qml">D:/proiecte/qt/slot_qt/InfoPage.qml</file>
+    <file alias="doublepage.qml">D:/proiecte/qt/slot_qt/doublepage.qml</file>
+    <file alias="images/playy.png">D:/proiecte/qt/slot_qt/images/playy.png</file>
+    <file alias="images/stopp.png">D:/proiecte/qt/slot_qt/images/stopp.png</file>
+    <file alias="images/7.jpg">D:/proiecte/qt/slot_qt/images/7.jpg</file>
+    <file alias="images/cherry.png">D:/proiecte/qt/slot_qt/images/cherry.png</file>
+    <file alias="images/grapes.png">D:/proiecte/qt/slot_qt/images/grapes.png</file>
+    <file alias="images/lemons.png">D:/proiecte/qt/slot_qt/images/lemons.png</file>
+    <file alias="images/melon.png">D:/proiecte/qt/slot_qt/images/melon.png</file>
+    <file alias="images/num7.png">D:/proiecte/qt/slot_qt/images/num7.png</file>
+    <file alias="images/orange.png">D:/proiecte/qt/slot_qt/images/orange.png</file>
+    <file alias="images/prune.png">D:/proiecte/qt/slot_qt/images/prune.png</file>
+    <file alias="images/starr.png">D:/proiecte/qt/slot_qt/images/starr.png</file>
+    <file alias="images/info.png">D:/proiecte/qt/slot_qt/images/info.png</file>
+    <file alias="images/doubleup.png">D:/proiecte/qt/slot_qt/images/doubleup.png</file>
+    <file alias="images/collect.png">D:/proiecte/qt/slot_qt/images/collect.png</file>
+    <file alias="images/blackcard.png">D:/proiecte/qt/slot_qt/images/blackcard.png</file>
+    <file alias="images/redcard.png">D:/proiecte/qt/slot_qt/images/redcard.png</file>
+    <file alias="images/blackreverse.png">D:/proiecte/qt/slot_qt/images/blackreverse.png</file>
+    <file alias="images/redreverse.png">D:/proiecte/qt/slot_qt/images/redreverse.png</file>
+    <file alias="images/greyy.png">D:/proiecte/qt/slot_qt/images/greyy.png</file>
+    <file alias="images/losecards.wav">D:/proiecte/qt/slot_qt/images/losecards.wav</file>
+    <file alias="images/wincards.wav">D:/proiecte/qt/slot_qt/images/wincards.wav</file>
+    <file alias="images/spin4.m4a">D:/proiecte/qt/slot_qt/images/spin4.m4a</file>
+    <file alias="images/win1.wav">D:/proiecte/qt/slot_qt/images/win1.wav</file>
+  </qresource>
+</RCC>
+
