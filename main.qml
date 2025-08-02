@@ -2,7 +2,8 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Window
 import QtMultimedia
-import com.company.slot_machine
+import com.company.slot_machine 1.0
+//import slot_qt 1.0
 //instructions window
 //hold to spin, trigger getrandom
 //doublings for combinations(what are the requirements, how much can you double

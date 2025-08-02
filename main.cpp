@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 
     slot_machine *slotmachine=new slot_machine(&app);
     qmlRegisterSingletonInstance("com.company.slot_machine",1,0,"SlotMachine",slotmachine );
-    const QUrl url(QStringLiteral("qrc:/slot_qt/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/com/company/slot_machine/main.qml"));
 
    // QObject *rootObject = engine.rootObjects().first();
    // QObject *princ = rootObject->findChild<QObject*>("princ"); // This line looks for "princ" in QML
